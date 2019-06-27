@@ -1,0 +1,43 @@
+PASSO A PASSO PARA CRIAR O PROJETO - PYTHON
+
+1 - criar uma pasta na área de trabalho.
+
+2 - acessar a pasta criada na área de trabalho.
+
+3 - agora criar o ambiente virtual através do comando:
+
+python -m venv env.
+
+4 - acessar o ambiente virtual através do comando:
+
+source env/Scripts/activate, para ativar o ambiente virtual.
+
+
+5 - Após ativar o ambiente virtual, instalar o djando através do comando:
+
+pip install django
+
+6 - criar projeto agora :
+
+django-admin startproject - > nome_do_projeto .
+
+7 - criar arquivo .gitignore (env/ db.sqlite3  __pycache__/ ).
+
+				
+				
+8 - criar pasta app por meio do comando: - > (python manage.py startapp app)
+
+
+9 - acessar pasta app e criar duas pastas: pasta templates e pasta static.
+
+10 - acessar pasta templates e criar o arquivo index.hmtl.
+
+11 - acessar pasta static e criar pasta css.
+
+12 - acessar pasta static e depois pasta css e criar o arquivo pagina.css.
+
+13 - editar arquivos da urls(adicionar url da views), views (na views import arquivo e passar função) , setting - > (adicionar app na setting), 
+
+
+
+SGBD - 
